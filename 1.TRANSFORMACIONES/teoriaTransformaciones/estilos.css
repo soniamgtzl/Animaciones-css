@@ -1,0 +1,57 @@
+/*TEORIA TRANSFORMACIONES BASICAS*/
+#teoria{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+
+#teoria div{
+    width: 120px;
+    height: 80px;
+    background-color:#36A6D3;
+    text-align: center;
+    color: white;
+    margin-right: 60px;
+    margin-top: 80px;
+    margin-left: 140px;
+    float: left;
+}
+
+/*
+scale(x,y)
+Modifica la escala del elemento.
+*/
+#escalado:active{
+    transform: scale(3,2);
+}
+/*
+rotate(ángulo)
+Rota el elemento.
+Se pueden usar:
+deg  - Para grados
+grad - Para gradientes
+rad  - Para radianes
+*/
+#rotacion:active{
+    transform: rotate(90deg);
+}
+/*
+skew(ángulo)
+skewX()
+skewY()
+Le da una inclinacion al elemento.
+Se pueden usar:
+deg  - Para grados
+grad - Para gradientes
+rad  - Para radianes
+*/
+#inclinacion:active{
+    transform: skewY(20deg);
+}
+/*
+translate(x,y)
+Desplaza el elemento a la posicion indicada
+*/
+#translacion:active{
+    transform: translate(-80px,30px);
+}

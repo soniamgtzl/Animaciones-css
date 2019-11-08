@@ -1,0 +1,66 @@
+div{
+  width: 300px;
+  height: 70px;
+  background-color: white;
+  border: 1px solid rgba(249, 57, 77, 0.55) ;
+  margin: 10px auto;
+  text-align: center;
+  color: rgb(249, 57, 77);
+  font-size: 30px;
+}
+div:nth-of-type(1){
+  margin-top: 150px;
+}
+/*TRANSITION LINEAR*/
+#transicion-linear{
+  width: 300px;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 2s;
+}
+#transicion-linear:hover{
+  width: 700px;
+  background-color: rgb(249, 57, 77);
+  color: white;
+}
+/*TRANSITION EASE*/
+#transicion-ease{
+  width: 300px;
+  transition: width 2s ease 0s;
+}
+#transicion-ease:hover{
+  width: 700px;
+  background-color: rgb(249, 57, 77);
+  color: white;
+}
+/*TRANSITION EASE-IN*/
+#transicion-ease-in{
+  width: 300px;
+  transition: width 2s ease-in 0s;
+}
+#transicion-ease-in:hover{
+  width: 700px;
+  background-color: rgb(249, 57, 77);
+  color: white;
+}
+/*TRANSITION EASE-OUT*/
+#transicion-ease-out{
+  width: 300px;
+  transition:width 2s ease-out 0s;
+}
+#transicion-ease-out:hover{
+  width: 700px;
+  background-color: rgb(249, 57, 77);
+  color: white;
+}
+/*TRANSITION EASE-IN-OUT*/
+#transicion-ease-in-out{
+  width: 300px;
+  transition: width 2s ease-in-out 0s;
+}
+#transicion-ease-in-out:hover{
+  width: 700px;
+  background-color: rgb(249, 57, 77);
+  color: white;
+}
